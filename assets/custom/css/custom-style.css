@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../../poppins/poppins-regular-webfont.woff2') format('woff2'),
+    url('../../poppins/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+body{
+    font-family: 'poppinsregular';
+    letter-spacing: .3px;
+    font-size: 15px;
+}
+.sidebar .nav-item .collapse .collapse-inner, .sidebar .nav-item .collapsing .collapse-inner{
+    font-size: .73rem;    
+}
+.colcol{
+    width : 90% !important;
+}
+.colcol:after{
+    color :#3a3b45 !important;
+}
+.custom-light{
+    background-color: #dde2f1;
+    border-color: #d4daed;
+}
+.custom-light:hover{
+    background-color: #d5dcf1;
+}
+.nav-item.active .nav-link{
+    letter-spacing: 1.5px;
+}
+.mt-btn{
+    margin-top : 55px;
+}
+.card-title span{
+  color: #858796 !important;
+}
+.btn-default{
+    border : 1px solid #dddfeb;
+}
